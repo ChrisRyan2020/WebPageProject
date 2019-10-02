@@ -1,13 +1,12 @@
 .logo {
-  width: 100%;
+  width: 33%;
 }
 
 img {
   width: 100px;
-  height: 100px;
 }
 
-#nav {
+ul#nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -15,11 +14,11 @@ img {
   background-color: #333;
 }
 
-li {
-  float: left;
+li.nav {
+    float: left;
 }
 
-li.nav {
+li a.nav {
   display: block;
   color: white;
   text-align: center;
@@ -27,10 +26,27 @@ li.nav {
   text-decoration: none;
 }
 
-li.nav:hover {
-  background-color: #008;
+li a.nav:hover {
+  background-color: #000075;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #008;
+}
+
+h6, footer {
+  font-size: 1px;
+  color: #333;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+main {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+  border-width: ;
 }
