@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+
 .logo {
   width: 33%;
 }
@@ -34,7 +36,7 @@ li a.nav:hover {
   background-color: #008;
 }
 
-h6, footer {
+#no-see {
   font-size: 1px;
   color: #333;
 }
@@ -42,11 +44,19 @@ h6, footer {
 body {
   background-color: #333;
   color: #fff;
+  font-family: "Comic Sans MS";
 }
 
 main {
   background-color: #fff;
   color: #000;
   border-color: #fff;
-  border-width: ;
+  margin: 5px;
+  padding: 0px 5px 0px 5px;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+nav {
+  font-family: 'Black Ops One', cursive;
 }
