@@ -1,0 +1,60 @@
+/* general rules start */
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 100px 100px 100px ;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas:
+    "title . meimg"
+    "summary summary summary"
+    "tu td .";
+  padding-bottom: 20px;
+
+}
+
+footer {
+  grid-area: footer;
+}
+/* general rules end */
+
+/* grid design start */
+.title {
+  grid-area: title;
+}
+
+.meimg {
+  grid-area: meimg;
+}
+
+.summary {
+  grid-area: summary;
+}
+
+.thumbsup {
+  grid-area: tu;
+  padding-bottom: 20px;
+
+}
+
+.thumbsdown {
+  grid-area: td;
+  padding-bottom: 20px;
+}
+/* grid design end */

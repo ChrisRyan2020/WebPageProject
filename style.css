@@ -1,4 +1,4 @@
-/* general rules */
+/* general rules start */
 @import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
 
@@ -14,19 +14,14 @@ body {
 
 main {
   background-color: #007;
-  margin: 5px;
-  padding: 0px 10px 0px 10px;
   border: 5px solid #003;
   border-radius: 5px 25px 5px 25px;
-  -webkit-box-shadow: -15px 10px 5px 0px #004;
-  box-shadow: -15px 10px 5px 0px #004;
-  display: grid;
 }
 
 nav {
   font-family: 'Black Ops One', cursive;
 }
-/* end of general rules */
+/* general rules end */
 
 /* nav design start */
 ul#nav {
